@@ -154,8 +154,7 @@ async def source(client, message):
 async def yes(Tgraph, update):
       cb_data = update.data
       if "yes" in cb_data:
-        await update.message.delete()
-        await update.message(https://github.com/madboy482/Telegraph-Uploader)
+        await update.message.edit(https://github.com/madboy482/Telegraph-Uploader)
         await source(Tgraph, update.message)
       elif "no" in cb_data:
         await update.message.delete() 
