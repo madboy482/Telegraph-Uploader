@@ -81,19 +81,19 @@ async def uploadvid(client, message):
 @Tgraph.on_message(filters.command(["start"]))
 async def home(client, message):
   buttons = [[
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
+        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='https://telegram.me/Romeo_JulietBotSupport'),
-        InlineKeyboardButton('𝑫𝑬𝑽𝑳𝑶𝑷𝑬𝑹', url='https://telegram.me/Warning_MadBoy_is_Here')
+        InlineKeyboardButton('Oᴜʀ Cʜᴀɴɴᴇʟ', url='https://telegram.me/Romeo_JulietBotSupport'),
+        InlineKeyboardButton('Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://telegram.me/Warning_MadBoy_is_Here')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
         text="""<b>Hey there I'm here.,
         
-I'm a Romeo Telegraph Uploader Bot; That Can Upload Photo, Video And Gif to telegraph links.
+I'm Romeo Telegraph Uploader Bot; That Can Upload Photo, Video And Gif to telegraph links.
         
 Simply send me photo, video or gif to upload to Telegra.ph✅
         
@@ -106,11 +106,11 @@ Made With ♥️ By @Romeo_JulietBotSupport</b>""",
 @Tgraph.on_message(filters.command(["help"]))
 async def help(client, message):
   buttons = [[
-        InlineKeyboardButton('Home', callback_data='home'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
+        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/Romeo_JulietBot_Support')
+        InlineKeyboardButton('Oᴜʀ Cʜᴀɴɴᴇʟ', url='http://telegram.me/Romeo_JulietBot_Support')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
