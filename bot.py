@@ -95,7 +95,7 @@ async def home(client, message):
         
 I'm Romeo Telegraph Uploader Bot; That Can Upload Photo, Video And Gif to telegraph links.
         
-Simply send me photo, video or gif to upload to telegra.ph✅
+Simply send me photo, video or gif to upload to telegra.ph ✅
         
 Made With ♥️ By @Romeo_JulietBotSupport</b>""",
         reply_markup=reply_markup,
