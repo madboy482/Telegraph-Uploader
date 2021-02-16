@@ -135,5 +135,29 @@ async def button(Tgraph, update):
       elif "home" in cb_data:
         await update.message.delete()
         await home(Tgraph, update.message)
+        
+@Tgraph.on_message(filters.command(["source"]))
+async def source(client, message):
+  buttons = [[
+        InlineKeyboardButton('Yes', callback_data='yes'),
+        InlineKeyboardButton('No', callback_data='yes')
+    ]]
+  reply_markup = InlineKeyboardMarkup(buttons)
+  await Tgraph.send_message(
+        chat_id=message.chat.id,
+        text="""Do you want to fork our code? If yes, then will u give the real credits in the bot at time of editing???</b>""",
+        reply_markup=reply_markup,
+        parse_mode="html",
+        reply_to_message_id=message.message_id
+    )   
+@Tgraph.on_callback_query()
+async def yes(Tgraph, update):
+      cb_data = update.data
+      if "yes" in cb_data:
+        await update.message.delete()
+        await update.message(https://github.com/madboy482/Telegraph-Uploader)
+        await source(Tgraph, update.message)
+      elif "no" in cb_data:
+        await update.message.delete() 
 
 Tgraph.run()
