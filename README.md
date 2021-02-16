@@ -10,8 +10,8 @@
 <b>Developer --></b> <b><i>[MADBOY](https://github.com/madboy482)</i></b>
 or <b><i>[MADBOY](https://telegram.me/Warning_MadBoy_is_Here)</i></b>
 <b>Special Thanks to -></b> <b><i>[PRANAV](https://github.com/pranavjha21)</i></b>
-or <b><i> [PRANAV](https://telegram.me/PranavJha1)
+or <b><i> [PRANAV](https://telegram.me/PranavJha1)</i></b>
 
 Any other authorship/credits can be seen through the commits.
 
-Should any be missing kindly let us know at [Romeo Bot Support](https://telegram.me/Romeo1Bot_Support) or simply submit a pull request on the readme.
+<b><i>Should any be missing kindly let us know at [Romeo Bot Support](https://telegram.me/Romeo1Bot_Support) or simply submit a pull request on the readme.</i></b>
